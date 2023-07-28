@@ -1,0 +1,3510 @@
+@layer utilities {
+
+  .m_90px_45\% {
+    margin: 90px 45%
+    }
+
+  .text_center {
+    text-align: center
+    }
+
+  .h_300px {
+    height: 300px
+    }
+
+  .w_300px {
+    width: 300px
+    }
+
+  .bg_red {
+    background-color: red
+    }
+
+  .bg_gainsboro {
+    background-color: gainsboro
+    }
+
+  .rounded_9999px {
+    border-radius: 9999px
+    }
+
+  .fs_13px {
+    font-size: 13px
+    }
+
+  .p_10px_15px {
+    padding: 10px 15px
+    }
+
+  ._after\,\ _before\:content_ {
+    content: 
+    }
+
+  ._after\,\ _before\:w_40px {
+    width: 40px
+    }
+
+  ._after\,\ _before\:h_25px {
+    height: 25px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(135deg\) {
+    &::before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .right_80px {
+    right: 80px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .right_1000px {
+    right: 1000px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .right_150px {
+    right: 150px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .right_10px {
+    right: 10px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .right_20px {
+    right: 20px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .left_200px {
+    left: 200px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .left_20px {
+    left: 20px
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .after\:content_ {
+    &::after {
+      content: 
+        }
+    }
+
+  .after\:w_40px {
+    &::after {
+      width: 40px
+        }
+    }
+
+  .after\:h_25px {
+    &::after {
+      height: 25px
+        }
+    }
+
+  .after\:bg_\$colorFaceParts {
+    &::after {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .after\:rounded-tr_12px {
+    &::after {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .after\:rounded-tl_12px {
+    &::after {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .after\:rounded-br_50\% {
+    &::after {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .after\:rounded-bl_50\% {
+    &::after {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .after\:pos_absolute {
+    &::after {
+      position: absolute
+        }
+    }
+
+  .after\:top_0 {
+    &::after {
+      top: 0
+        }
+    }
+
+  .after\:left_70px {
+    &::after {
+      left: 70px
+        }
+    }
+
+  .after\:transform_rotate\(135deg\) {
+    &::after {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_40px {
+    &:after, &:before {
+      width: 40px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_red {
+    &:after, &:before {
+      background-color: red
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_400px {
+    &:after, &:before {
+      width: 400px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_red {
+    &:after, &:before {
+      background-color: red
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .before\:left_70px {
+    &::before {
+      left: 70px
+        }
+    }
+
+  .before\:transform_rotate\(-135deg\) {
+    &::before {
+      transform: rotate(-135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_400px {
+    &:after, &:before {
+      width: 400px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_red {
+    &:after, &:before {
+      background-color: red
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .bg_red {
+    background: red
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_400px {
+    &:after, &:before {
+      width: 400px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_red {
+    &:after, &:before {
+      background-color: red
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:content_ {
+    &:after, &:before {
+      content: 
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:w_400px {
+    &:after, &:before {
+      width: 400px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:h_25px {
+    &:after, &:before {
+      height: 25px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts {
+    &:after, &:before {
+      background: var(--colors-\$color-face-parts)
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:bg_red {
+    &:after, &:before {
+      background-color: red
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px {
+    &:after, &:before {
+      border-top-right-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px {
+    &:after, &:before {
+      border-top-left-radius: 12px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-br_50\% {
+    &:after, &:before {
+      border-bottom-right-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\% {
+    &:after, &:before {
+      border-bottom-left-radius: 50%
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:pos_absolute {
+    &:after, &:before {
+      position: absolute
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:top_0 {
+    &:after, &:before {
+      top: 0
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:left_70px {
+    &:after, &:before {
+      left: 70px
+        }
+    }
+
+  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\) {
+    &:after, &:before {
+      transform: rotate(135deg)
+        }
+    }
+
+  .w_30px {
+    width: 30px
+    }
+
+  .h_30px {
+    height: 30px
+    }
+
+  .left_0 {
+    left: 0
+    }
+
+  .top_0 {
+    top: 0
+    }
+
+  .left_0px {
+    left: 0px
+    }
+
+  .left_90px {
+    left: 90px
+    }
+
+  .w_120px {
+    width: 120px
+    }
+
+  .h_120px {
+    height: 120px
+    }
+
+  .w_125px {
+    width: 125px
+    }
+
+  .h_70px {
+    height: 70px
+    }
+
+  .bottom_68px {
+    bottom: 68px
+    }
+
+  .right_2px {
+    right: 2px
+    }
+
+  .bottom_145px {
+    bottom: 145px
+    }
+
+  .w_14px {
+    width: 14px
+    }
+
+  .h_14px {
+    height: 14px
+    }
+
+  .border_2\.5px_solid_\$colorHead {
+    border: 2.5px solid $colorHead
+    }
+
+  .left_30px {
+    left: 30px
+    }
+
+  .right_40px {
+    right: 40px
+    }
+
+  .content_ {
+    content: 
+    }
+
+  .w_5px {
+    width: 5px
+    }
+
+  .h_5px {
+    height: 5px
+    }
+
+  .bg_\$colorHead {
+    background: var(--colors-\$color-head)
+    }
+
+  .top_3px {
+    top: 3px
+    }
+
+  .z_3 {
+    z-index: 3
+    }
+
+  .bg_\$colorFaceParts {
+    background: var(--colors-\$color-face-parts)
+    }
+
+  .w_17px {
+    width: 17px
+    }
+
+  .h_10px {
+    height: 10px
+    }
+
+  .bottom_100px {
+    bottom: 100px
+    }
+
+  .left_50px {
+    left: 50px
+    }
+
+  .w_25px {
+    width: 25px
+    }
+
+  .h_25px {
+    height: 25px
+    }
+
+  .rounded_50\% {
+    border-radius: 50%
+    }
+
+  .border-b_2px_solid_\$colorFaceParts {
+    border-bottom: 2px solid $colorFaceParts
+    }
+
+  .pos_absolute {
+    position: absolute
+    }
+
+  .bottom_85px {
+    bottom: 85px
+    }
+
+  .left_47\.5px {
+    left: 47.5px
+    }
+
+  .transition_all_0\.5s_ease-in-out {
+    transition: all 0.5s ease-in-out
+    }
+
+  .pos_relative {
+    position: relative
+    }
+}
