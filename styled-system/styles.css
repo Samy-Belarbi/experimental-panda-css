@@ -21,204 +21,48 @@
     height: 300px
     }
 
-  .w_300px {
-    width: 300px
+  .w_100px {
+    width: 100px
     }
 
   .bg_red {
     background-color: red
     }
 
-  .bg_gainsboro {
-    background-color: gainsboro
+  .rounded_10px {
+    border-radius: 10px
     }
 
-  .rounded_9999px {
-    border-radius: 9999px
+  .border_2px_solid_black {
+    border: 2px solid black
     }
 
-  .fs_13px {
-    font-size: 13px
+  .flex_row {
+    flex-direction: row
     }
 
-  .p_10px_15px {
-    padding: 10px 15px
+  .border_1px_solid_token\(colors\.\$colorHead\) {
+    border: 1px solid var(--colors-\$color-head)
     }
 
-  ._after\,\ _before\:w_40px {
-    width: 40px
+  .border_1px_solid_tokens\(colors\.\$colorFaceParts\) {
+    border: 1px solid tokens(colors.$colorFaceParts)
     }
 
-  ._after\,\ _before\:h_25px {
-    height: 25px
+  .p_50px {
+    padding: 50px
     }
 
-  .before\:transform_rotate\(135deg\)::before {
-    transform: rotate(135deg)
-        }
-
-  .right_80px {
-    right: 80px
+  .mt_100px {
+    margin-top: 100px
     }
 
-  .right_1000px {
-    right: 1000px
+  .h_250px {
+    height: 250px
     }
 
-  .right_150px {
-    right: 150px
-    }
-
-  .right_10px {
-    right: 10px
-    }
-
-  .right_20px {
-    right: 20px
-    }
-
-  .left_200px {
-    left: 200px
-    }
-
-  .left_20px {
-    left: 20px
-    }
-
-  .after\:w_40px::after {
-    width: 40px
-        }
-
-  .after\:h_25px::after {
-    height: 25px
-        }
-
-  .after\:bg_\$colorFaceParts::after {
-    background: var(--colors-\$color-face-parts)
-        }
-
-  .after\:rounded-tr_12px::after {
-    border-top-right-radius: 12px
-        }
-
-  .after\:rounded-tl_12px::after {
-    border-top-left-radius: 12px
-        }
-
-  .after\:rounded-br_50\%::after {
-    border-bottom-right-radius: 50%
-        }
-
-  .after\:rounded-bl_50\%::after {
-    border-bottom-left-radius: 50%
-        }
-
-  .after\:pos_absolute::after {
-    position: absolute
-        }
-
-  .after\:top_0::after {
-    top: 0
-        }
-
-  .after\:left_70px::after {
-    left: 70px
-        }
-
-  .after\:transform_rotate\(135deg\)::after {
-    transform: rotate(135deg)
-        }
-
-  .\[\&\:after\,_\&\:before\]\:w_40px:after, .\[\&\:after\,_\&\:before\]\:w_40px:before {
-    width: 40px
-        }
-
-  .before\:left_70px::before {
-    left: 70px
-        }
-
-  .before\:transform_rotate\(-135deg\)::before {
-    transform: rotate(-135deg)
-        }
-
-  .bg_red {
-    background: red
-    }
-
-  .\[\&\:after\,_\&\:before\]\:w_400px:after, .\[\&\:after\,_\&\:before\]\:w_400px:before {
-    width: 400px
-        }
-
-  .\[\&\:after\,_\&\:before\]\:h_25px:after, .\[\&\:after\,_\&\:before\]\:h_25px:before {
-    height: 25px
-        }
-
-  .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts:after, .\[\&\:after\,_\&\:before\]\:bg_\$colorFaceParts:before {
-    background: var(--colors-\$color-face-parts)
-        }
-
-  .\[\&\:after\,_\&\:before\]\:bg_red:after, .\[\&\:after\,_\&\:before\]\:bg_red:before {
-    background-color: red
-        }
-
-  .\[\&\:after\,_\&\:before\]\:rounded-tr_12px:after, .\[\&\:after\,_\&\:before\]\:rounded-tr_12px:before {
-    border-top-right-radius: 12px
-        }
-
-  .\[\&\:after\,_\&\:before\]\:rounded-tl_12px:after, .\[\&\:after\,_\&\:before\]\:rounded-tl_12px:before {
-    border-top-left-radius: 12px
-        }
-
-  .\[\&\:after\,_\&\:before\]\:rounded-br_50\%:after, .\[\&\:after\,_\&\:before\]\:rounded-br_50\%:before {
-    border-bottom-right-radius: 50%
-        }
-
-  .\[\&\:after\,_\&\:before\]\:rounded-bl_50\%:after, .\[\&\:after\,_\&\:before\]\:rounded-bl_50\%:before {
-    border-bottom-left-radius: 50%
-        }
-
-  .\[\&\:after\,_\&\:before\]\:pos_absolute:after, .\[\&\:after\,_\&\:before\]\:pos_absolute:before {
-    position: absolute
-        }
-
-  .\[\&\:after\,_\&\:before\]\:top_0:after, .\[\&\:after\,_\&\:before\]\:top_0:before {
-    top: 0
-        }
-
-  .\[\&\:after\,_\&\:before\]\:left_70px:after, .\[\&\:after\,_\&\:before\]\:left_70px:before {
-    left: 70px
-        }
-
-  .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\):after, .\[\&\:after\,_\&\:before\]\:transform_rotate\(135deg\):before {
-    transform: rotate(135deg)
-        }
-
-  .border-b_2px_solid_\$colorFaceParts {
-    border-bottom: 2px solid $colorFaceParts
-    }
-
-  .border_2\.5px_solid_\$colorHead {
-    border: 2.5px solid $colorHead
-    }
-
-  .right_400px {
-    right: 400px
-    }
-
-  .right_40px {
-    right: 40px
-    }
-
-  .left_60px {
-    left: 60px
-    }
-
-  .left_80px {
-    left: 80px
-    }
-
-  .left_70px {
-    left: 70px
+  .p_100px {
+    padding: 100px
     }
 
   .w_30px {
@@ -301,20 +145,12 @@
     height: 5px
     }
 
-  .bg_\$colorHead {
-    background: var(--colors-\$color-head)
-    }
-
   .top_3px {
     top: 3px
     }
 
   .z_3 {
     z-index: 3
-    }
-
-  .bg_\$colorFaceParts {
-    background: var(--colors-\$color-face-parts)
     }
 
   .w_17px {
@@ -367,5 +203,73 @@
 
   .pos_relative {
     position: relative
+    }
+
+  .cursor_pointer {
+    cursor: pointer
+    }
+
+  .transition_all_0\.3s_ease-in-out {
+    transition: all 0.3s ease-in-out
+    }
+
+  .border_1px_solid_token\(colors\.\$colorFaceParts\) {
+    border: 1px solid var(--colors-\$color-face-parts)
+    }
+
+  .p_10px {
+    padding: 10px
+    }
+
+  .bg_\$colorHead {
+    background: var(--colors-\$color-head)
+    }
+
+  .text_\$colorFaceParts {
+    color: var(--colors-\$color-face-parts)
+    }
+
+  .bg_\$colorFaceParts {
+    background: var(--colors-\$color-face-parts)
+    }
+
+  .text_\$colorHead {
+    color: var(--colors-\$color-head)
+    }
+
+  .d_flex {
+    display: flex
+    }
+
+  .flex_column {
+    flex-direction: column
+    }
+
+  .p_25px {
+    padding: 25px
+    }
+
+  .items_center {
+    align-items: center
+    }
+
+  .mt_10px {
+    margin-top: 10px
+    }
+
+  .w_100\% {
+    width: 100%
+    }
+
+  .bg_blue {
+    background-color: blue
+    }
+
+  .text_yellow {
+    color: yellow
+    }
+
+  .p_5px {
+    padding: 5px
     }
 }

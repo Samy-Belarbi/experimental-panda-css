@@ -1,10 +1,11 @@
-import { css, cx } from "../styled-system/css";
+import { useState } from "react";
+import { css, cva, cx } from "../styled-system/css";
+import { styled } from "../styled-system/jsx";
 
 const main = css({
   position: "relative",
   margin: "90px 45%",
   textAlign: "center",
-  height: "300px",
 });
 
 const ears = css({
@@ -100,30 +101,72 @@ const mouth = css({
   transition: "all 0.5s ease-in-out",
 });
 
+const button = cva({
+  base: {
+    cursor: "pointer",
+    transition: "all 0.3s ease-in-out",
+    border: "1px solid token(colors.$colorFaceParts)",
+    padding: "10px",
+  },
+  variants: {
+    visual: {
+      primary: {
+        background: "$colorHead",
+        color: "$colorFaceParts",
+      },
+      secondary: {
+        background: "$colorFaceParts",
+        color: "$colorHead",
+      },
+    },
+  },
+});
+
 function App() {
+  const [buttonStyle, setButtonStyle] = useState(button({ visual: "primary" }));
+
+  const toggleButtonStyle = () => {
+    if (buttonStyle === button({ visual: "primary" })) {
+      setButtonStyle(button({ visual: "secondary" }));
+    } else {
+      setButtonStyle(button({ visual: "primary" }));
+    }
+  };
+
   return (
-    <div className={main}>
-      <div className={cx(ears, leftEar)}></div>
-      <div className={cx(ears, rightEar)}></div>
-      <div
-        className={css({
-          position: "relative",
-        })}
-      >
-        <div className={head1}></div>
-        <div className={head2}></div>
-        <div className={eye}>
-          <div className={cx(eyeLeft, eyes)}>
-            <div className={eyePoint}></div>
+    <>
+      <div className={main}>
+        <div className={cx(ears, leftEar)}></div>
+        <div className={cx(ears, rightEar)}></div>
+        <div
+          className={css({
+            position: "relative",
+          })}
+        >
+          <div className={head1}></div>
+          <div className={head2}></div>
+          <div className={eye}>
+            <div className={cx(eyeLeft, eyes)}>
+              <div className={eyePoint}></div>
+            </div>
+            <div className={cx(eyeRight, eyes)}>
+              <div className={eyePoint}></div>
+            </div>
           </div>
-          <div className={cx(eyeRight, eyes)}>
-            <div className={eyePoint}></div>
-          </div>
+          <div className={nose}></div>
+          <div className={mouth}></div>
         </div>
-        <div className={nose}></div>
-        <div className={mouth}></div>
       </div>
-    </div>
+      <styled.div display="flex" flexDirection="column" p="25px" alignItems="center">
+        <styled.button className={buttonStyle} onClick={toggleButtonStyle}>
+          Je suis un bouton
+        </styled.button>
+        <styled.div mt="10px" width="100%" bgColor="blue" color="yellow" padding="5px">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dicta quis optio facere odit, dolor dolores quidem inventore asperiores a quae incidunt! Impedit, non modi veritatis est
+          perspiciatis facilis saepe.
+        </styled.div>
+      </styled.div>
+    </>
   );
 }
 
