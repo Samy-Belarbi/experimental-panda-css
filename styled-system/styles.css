@@ -193,6 +193,34 @@
     transform: rotate(135deg)
         }
 
+  .border-b_2px_solid_\$colorFaceParts {
+    border-bottom: 2px solid $colorFaceParts
+    }
+
+  .border_2\.5px_solid_\$colorHead {
+    border: 2.5px solid $colorHead
+    }
+
+  .right_400px {
+    right: 400px
+    }
+
+  .right_40px {
+    right: 40px
+    }
+
+  .left_60px {
+    left: 60px
+    }
+
+  .left_80px {
+    left: 80px
+    }
+
+  .left_70px {
+    left: 70px
+    }
+
   .w_30px {
     width: 30px
     }
@@ -253,16 +281,16 @@
     height: 14px
     }
 
-  .border_2\.5px_solid_\$colorHead {
-    border: 2.5px solid $colorHead
+  .border_2\.5px_solid_token\(colors\.\$colorHead\) {
+    border: 2.5px solid var(--colors-\$color-head)
     }
 
   .left_30px {
     left: 30px
     }
 
-  .right_40px {
-    right: 40px
+  .left_75px {
+    left: 75px
     }
 
   .w_5px {
@@ -317,8 +345,8 @@
     border-radius: 50%
     }
 
-  .border-b_2px_solid_\$colorFaceParts {
-    border-bottom: 2px solid $colorFaceParts
+  .border-b_2px_solid_token\(colors\.\$colorFaceParts\) {
+    border-bottom: 2px solid var(--colors-\$color-face-parts)
     }
 
   .pos_absolute {

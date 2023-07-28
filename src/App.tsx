@@ -54,7 +54,7 @@ const eyes = css({
   height: "14px",
   background: "$colorFaceParts",
   borderRadius: "50%",
-  border: "2.5px solid $colorHead",
+  border: "2.5px solid token(colors.$colorHead)",
   position: "absolute",
   top: "3px",
   zIndex: 3,
@@ -65,7 +65,7 @@ const eyeLeft = css({
 });
 
 const eyeRight = css({
-  right: "40px",
+  left: "75px",
 });
 
 const eyePoint = css({
@@ -93,7 +93,7 @@ const mouth = css({
   width: "25px",
   height: "25px",
   borderRadius: "50%",
-  borderBottom: "2px solid $colorFaceParts",
+  borderBottom: "2px solid token(colors.$colorFaceParts)",
   position: "absolute",
   bottom: "85px",
   left: "47.5px",
